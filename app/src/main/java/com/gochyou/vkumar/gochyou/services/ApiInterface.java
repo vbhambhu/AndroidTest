@@ -8,7 +8,7 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
 
-    @GET("inbox.php")
+    @GET("message/list?userid=1")
     Call<List<Message>> getInbox();
 
 }

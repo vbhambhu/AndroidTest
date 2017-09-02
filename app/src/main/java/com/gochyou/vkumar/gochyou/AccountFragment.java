@@ -28,4 +28,10 @@ public class AccountFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_account, container, false);
     }
+
+    public void clikconthisbutton(View view) {
+
+        System.out.println("I just cliked here");
+    }
+
 }

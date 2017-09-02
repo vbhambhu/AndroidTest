@@ -4,7 +4,8 @@ package com.gochyou.vkumar.gochyou.entities;
 public class Message {
 
     private int id;
-    private String messages;
+    private String message;
+    private String createdAt;
 
     public int getId() {
         return id;
@@ -14,11 +15,19 @@ public class Message {
         this.id = id;
     }
 
-    public String getMessages() {
-        return messages;
+    public String getMessage() {
+        return message;
     }
 
-    public void setMessages(String messages) {
-        this.messages = messages;
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
     }
 }
